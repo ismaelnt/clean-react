@@ -1,6 +1,6 @@
 import { TAccountModel } from '../models/account-model';
 
-type TAuthenticationParams = {
+export type TAuthenticationParams = {
   email: string;
   password: string;
 };
